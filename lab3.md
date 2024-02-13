@@ -230,9 +230,10 @@ neric_guyen@Erics-MacBook-Pro-2 technical % find . -name "*go*"
 The files Oregon_Poor.txt and Ginny_Kilgore.txt both contain the substring "go."  Other relative paths like ./government/Post_Rate_Comm technically contain the 
 substring "go" in the /government directory, but the final path /Post_Rate_Comm does not contain the substring so it is not printed.
 
-# Conclusion
+--- 
+
 Thank you for listening to my bloggy!
-I used the following websites as a reference since I did not know anything about the `find` command prior to writing this blogpost:
-https://www.redhat.com/sysadmin/linux-find-command
-https://tecadmin.net/linux-find-command-with-examples/
+I used the following websites as references for the `find` command:
+1,2, and 4: https://www.redhat.com/sysadmin/linux-find-command
+3: https://tecadmin.net/linux-find-command-with-examples/
 Great websites 10/10
