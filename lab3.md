@@ -164,7 +164,7 @@ neric_guyen@Erics-MacBook-Pro-2 docsearchCSE15L % find . -maxdepth 2 -type d
 Using an argument of 2 shows directories 2 paths deep, ie any directories within the directories within the working directory.  Notice how it still includes 
 the relative paths to the directories 1 path deep, such as ./lib.
 
-## 3. find <path> -size <+/- int(M/k/c)>
+## 3. `find <path> -size <+/- int(M/k/c)>`
 This command-line argument finds and prints the files that have more or less than a specified size.  The plus sign indicates more than, the minus sign is less than.
 M is MB, K is KB, and c is in bytes. This example prints all the files in /technical that have a size greater than 100 KB of data.
 ```
